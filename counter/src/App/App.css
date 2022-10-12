@@ -1,0 +1,20 @@
+*margin{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 2rem;
+    min-height: 100vh;
+    background: linear-gradient(to bottom right,#B1B2FF,#AAC4FF);
+}
+#root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 4rem;
+}
