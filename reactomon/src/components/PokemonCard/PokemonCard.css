@@ -1,0 +1,109 @@
+.PokemonCard{
+    width: 40rem;
+    height: 50rem;
+    box-shadow: 0 0 2rem rgba(0,0,0,0.2);
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+
+.PokemonCard__header{
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.PokemonCard__title{
+    font-size: 200%;
+    font-weight: 400;
+}
+
+.PokemonCard__labelWrapper{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.PokemonCard__type{
+    font-size: 70%;
+    padding: 0.2rem;
+    border-radius: 2rem;
+    width: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #eee;
+}
+
+.PokemonCard__type--Water{
+    background: #5CB8E4;
+}
+
+.PokemonCard__type--Ground{
+    background: #533535;
+}
+
+.PokemonCard__type--Poison{
+    background: #753188;
+}
+.PokemonCard__type--Fire{
+    background: #D9534F;
+}
+.PokemonCard__type--Grass{
+    background: #6EBF8B;
+}
+.PokemonCard__type--Electric{
+    background: #F8CB2E;
+}
+
+.PokemonCard__section{
+    height: 70%;
+}
+
+.PokemonCard__figure{
+    height: 80%;
+}
+
+.PokemonCard__img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.PokemonCard__h3Wrapper{
+    height: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.PokemonCard__HP{
+    font-weight: 400;
+    font-size: 90%;
+}
+
+.PokemonCard__footer{
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+}
+
+.PokemonCard__button{
+    border: none;
+    background: none;
+    font-size: 100%;
+    padding: 0.5rem 4rem;
+    border-radius: 0.5rem;
+    color: #eee;
+    flex-grow: 1;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.PokemonCard__button--Attack{
+    background: #B33030;
+}
+
+.PokemonCard__button--Catch{
+    background: #2EB086;
+}

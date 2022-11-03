@@ -1,0 +1,6 @@
+.PokemonCardWrapper{
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
